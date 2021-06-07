@@ -38,7 +38,7 @@ server.get("/", (req, res) => {
   } else {
     res
       .status(400)
-      .json({ message: "La posición y el mansaje no se han calculado" });
+      .json({ message: "La posición y el mensaje no se han calculado" });
   }
 });
 
