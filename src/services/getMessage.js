@@ -17,7 +17,7 @@ function getMessage(satellites) {
     }
   }
 
-  return finalMsg;
+  return finalMsg.join(" ");
 }
 
 module.exports = getMessage;
