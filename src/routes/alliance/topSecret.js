@@ -13,16 +13,10 @@ server.post("/", (req, res) => {
     const position = getLocation(satInformation);
     const message = getMessage(satInformation);
 
-    if (!position.x || !position.y) {
+    if (!position.x || !position.y || message.length < 1) {
       return res
         .status(404)
-        .json({ message: "no se pudo determinar la ubicación" });
-    }
-
-    if (message.length < 1) {
-      return res
-        .status(404)
-        .json({ message: "no se pudo determinar el mensaje" });
+        .json({ message: "no se pudo determinar la ubicación o el mensaje" });
     }
 
     res.status(200).json({

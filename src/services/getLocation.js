@@ -1,7 +1,7 @@
 const satCurrentPosition = {
-  kenobi: require("../resources/satellites/kenobi.json"),
-  skywalker: require("../resources/satellites/skywalker.json"),
-  sato: require("../resources/satellites/sato.json"),
+  kenobi: require("../data/satellites/kenobi.json"),
+  skywalker: require("../data/satellites/skywalker.json"),
+  sato: require("../data/satellites/sato.json"),
 };
 
 function getLocation(satellites) {
