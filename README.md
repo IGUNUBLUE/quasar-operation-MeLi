@@ -54,7 +54,7 @@ $ yarn nodemon
 
 #### _Paso 4_
 
-Utilizar postman u otro API-testing para probar los endpoints declarados en **Endpoint**.</br>
+Utilizar postman u otro API-testing para probar los endpoints declarados en [Endpoint](https://github.com/IGUNUBLUE/quasar-operation-MeLi#endpoints).</br>
 Para las pruebas locales la URL base es: http://localhost:3001.
 
 ### Online - deploy:
