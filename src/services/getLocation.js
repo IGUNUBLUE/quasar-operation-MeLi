@@ -52,8 +52,8 @@ function getLocation(satellites) {
   let y = (tempCalOne - tempCalTwo) / (tempCalThree * 2);
 
   return {
-    x: x,
-    y: y,
+    x: Number(x.toFixed(1)),
+    y: Number(y.toFixed(1)),
   };
 }
 
