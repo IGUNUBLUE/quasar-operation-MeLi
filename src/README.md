@@ -1,6 +1,6 @@
 ## Operación juego de quasar.
 Esta aplicación fue desarrollada para el challenge de admisión al bootCamp MeLi.
-Las tecnologías utilizadas fueron: Javascript, nodeJs, expressJS, Heroku.
+Las tecnologías utilizadas fueron: nodeJs, expressJS, Heroku.
 
 ### Objetivos alcanzados.
 - Nivel 1 ✅
