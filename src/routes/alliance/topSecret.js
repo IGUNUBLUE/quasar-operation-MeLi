@@ -13,7 +13,7 @@ server.post("/", (req, res) => {
     const position = getLocation(satInformation);
     const message = getMessage(satInformation);
 
-    if (position.x === null && position.y === null) {
+    if (!position.x || !position.y) {
       return res
         .status(404)
         .json({ message: "no se pudo determinar la ubicación" });
