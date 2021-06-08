@@ -5,12 +5,12 @@ Las tecnologías utilizadas fueron: **nodeJs**, **expressJS**, **Heroku**.
 ### Objetivos alcanzados.
 - Nivel 1 ✅
 - Nivel 2 ✅
-- Nivel 3 ✅ only POST method
+- Nivel 3 ✅
 
 ### Endpoints
 - POST /topsecret
 - POST /topsecret_split
-<!-- - GET /topsecret_split -->
+- GET /topsecret_split
 
 ## Instrucciones
 ### Local:
@@ -47,4 +47,4 @@ Para las pruebas locales la URL base es: http://localhost:3001.
 https://quasar-operation-meli.herokuapp.com/
 
 ## Adicionales
-- En el repositorio se encuentran la carpeta *resources* con el archivo de nombre **MeLi.postman_collection.json**, dicho archivo contiene el template de postman con el cual realice las pruebas del _nivel 1_ y el _nivel 2_.
+- En el repositorio se encuentran la carpeta *resources* con el archivo de nombre **MeLi.postman_collection.json**, dicho archivo contiene el template de postman con el cual realice las pruebas.
