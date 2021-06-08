@@ -5,7 +5,8 @@ Las tecnologías utilizadas fueron: **nodeJs**, **expressJS**, **Heroku**.
 ### Objetivos alcanzados.
 - Nivel 1 ✅
 - Nivel 2 ✅
-- Nivel 3 ✅
+- Nivel 3 ✅</br>
+En el nivel 3 tenias varias dudas. Mi conclusion fue que el endpoint **POST /topsecret_split** recibe los mensajes de los satélites para generar tanto la posicion del emisor como el mensaje secreto, y con el endpoint **GET /topsecret_split** se puede obtener la información. 
 
 ### Endpoints
 - POST /topsecret
